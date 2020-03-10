@@ -12,14 +12,9 @@ $config = [
         '@npm'   => '@vendor/npm-asset',
     ],
     'components' => [
-        'assetManager' => [ //SETTING FOR MATERIAL DASHBOARD THEME
-            'bundles' => [
-                'deyraka\materialdashboard\web\MaterialDashboardAsset',
-            ],
-        ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => 'LeEWbeMbhIUV_GiPz65AJ_lmGwfxS5Gj',
+            'cookieValidationKey' => 'k2xnChi26p-dYbYeRJPT-M8YWYLCl86e',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
